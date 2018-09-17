@@ -1,0 +1,13 @@
+body {
+    background: #252525;
+    width: 100%;
+    overflow-x: hidden;
+    color: ghostwhite;
+}
+
+#name_and_projects {
+    height: 100vh;
+    background: #151515;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
