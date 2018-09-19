@@ -5,6 +5,10 @@ body {
     color: ghostwhite;
 }
 
+.text-ghostwhite, a:hover .text-ghostwhite {
+    color: ghostwhite !important;
+}
+
 section {
     height: 100vh;
 }
@@ -20,7 +24,7 @@ section {
 }
 
 #myFace {
-    max-height: 40vh;
-    width: auto;
-    border-radius: 50%;
+    max-width: 40vw;
+    height: auto;
+    border-radius: 50% !important;
 }
