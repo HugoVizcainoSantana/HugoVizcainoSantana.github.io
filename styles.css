@@ -24,7 +24,7 @@ section {
 }
 
 #myFace {
-    max-width: 40vw;
-    height: auto;
+    max-height: 30vh;
+    width: auto;
     border-radius: 50% !important;
 }
