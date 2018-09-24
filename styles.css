@@ -9,18 +9,25 @@ body {
     color: ghostwhite !important;
 }
 
+.bg-white {
+    background: ghostwhite !important;
+}
+
+.bg-none {
+    background: none !important;
+}
+
 section {
     height: 100vh;
+    padding: 2.5vh 0 2.5vh 0;
 }
 
 .text-ghostwhite, a:hover .text-ghostwhite {
     color: ghostwhite !important;
 }
 
-#name_and_projects {
+#firstPage {
     background: #151515;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
 }
 
 #myFace {
@@ -28,3 +35,36 @@ section {
     width: auto;
     border-radius: 50% !important;
 }
+
+.card {
+    border: 1px solid ghostwhite;
+    background: none;
+    margin: 0 1.5vw;
+}
+
+.card-body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#projects_contributions .card {
+    max-height: 35vh;
+    width: auto;
+}
+
+#projects_contributions .card img {
+    height: 10vh;
+    width: auto;
+}
+
+#skills {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+#skills div img {
+    height: 15vh;
+    width: auto;
+}
+
+
